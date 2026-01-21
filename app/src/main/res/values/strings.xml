@@ -4,4 +4,7 @@
     <string name="editar_med">EDITAR MEDICINAS</string>
     <string name="escanear_med">ESCANEAR MEDICINA</string>
     <string name="consulta_med">CONSULTAR HOY</string>
+    <string name="anadir_med">AÑADIR MEDICINA</string>
+    <string name="retirar_med">RETIRAR MEDICINA</string>
+    <string name="btn_atras">ATRÁS</string>
 </resources>

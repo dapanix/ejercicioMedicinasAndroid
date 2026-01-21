@@ -32,38 +32,14 @@
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <Button
-            android:id="@+id/btnAnadir"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="56dp"
-            android:text="@string/anadir_med"
-            app:layout_constraintTop_toBottomOf="@id/tituloPrincipal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
-
-        <Button
-            android:id="@+id/btnRetirar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="@string/retirar_med"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.514"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btnAnadir" />
-
-        <Button
             android:id="@+id/btnAtras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="304dp"
+            android:layout_marginTop="464dp"
             android:text="@string/btn_atras"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btnRetirar" />
-
-        <!--pestaña emergente-->
-
+            app:layout_constraintTop_toBottomOf="@id/tituloPrincipal" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

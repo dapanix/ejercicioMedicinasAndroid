@@ -8,6 +8,6 @@
 
     <color name="primario_nightmode">#02022C</color>
     <color name="secundario_nightmode">#158EB1</color>
-    <color name="terciario_nightmode">##FD5DD0</color>
+    <color name="terciario_nightmode">#FD5DD0</color>
 
 </resources>

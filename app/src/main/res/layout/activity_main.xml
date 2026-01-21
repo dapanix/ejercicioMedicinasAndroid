@@ -2,6 +2,7 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/fondo_principal"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop" />
 
     <!-- Contenedor flexible para posicionar elementos libremente -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,57 +19,49 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-        <!-- Título principal -->
+        <TextView
+            android:id="@+id/tituloPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/tituloComercial"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btnEditar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="30dp"
             android:text="@string/editar_med"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_margin="30dp"
             app:layout_constraintTop_toBottomOf="@id/tituloPrincipal" />
 
         <Button
-            android:id="@+id/btnConsultar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="148dp"
-            android:text="@string/consulta_med"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_margin="30dp"
-            app:layout_constraintTop_toBottomOf="@id/tituloPrincipal" />
-
-        <Button
-            android:id="@+id/botonEntrar2"
+            android:id="@+id/btnEscanear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="72dp"
             android:text="@string/escanear_med"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_margin="30dp"
-            app:layout_constraintTop_toBottomOf="@id/tituloPrincipal" />
+            app:layout_constraintTop_toBottomOf="@id/btnEditar" />
 
-        <TextView
-            android:id="@+id/tituloPrincipal"
+        <Button
+            android:id="@+id/btnConsultar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tituloComercial"
-            android:textColor="@android:color/white"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="72dp"
+            android:text="@string/consulta_med"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_margin="60dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnEscanear" />
 
-        <!-- Botón -->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
