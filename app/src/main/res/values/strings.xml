@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">FernandezDanielProyectoFInal</string>
-    <string name="titulo">MYMEDICINE</string>
+    <string name="app_name">MEDICINEMED</string>
+    <string name="tituloComercial">MEDICINEMED</string>
+    <string name="editar_med">EDITAR MEDICINAS</string>
+    <string name="escanear_med">ESCANEAR MEDICINA</string>
+    <string name="consulta_med">CONSULTAR HOY</string>
 </resources>
