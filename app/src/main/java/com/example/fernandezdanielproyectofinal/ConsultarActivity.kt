@@ -3,16 +3,16 @@ package com.example.fernandezdanielproyectofinal
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.fernandezdanielproyectofinal.databinding.ActivityEditarBinding
+import com.example.fernandezdanielproyectofinal.databinding.ActivityConsultarBinding
 
 class ConsultarActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEditarBinding
+    private lateinit var binding: ActivityConsultarBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityEditarBinding.inflate(layoutInflater)
+        binding = ActivityConsultarBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 

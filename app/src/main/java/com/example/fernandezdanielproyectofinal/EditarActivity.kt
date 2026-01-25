@@ -18,16 +18,13 @@ class EditarActivity : AppCompatActivity() {
     lateinit var db: AppDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
         db = Room.databaseBuilder(
             applicationContext,
             AppDatabase::class.java,
             "medicinemed_db"
         ).allowMainThreadQueries().build()
-
-
-
-        super.onCreate(savedInstanceState)
 
         binding = ActivityEditarBinding.inflate(layoutInflater)
         setContentView(binding.root)

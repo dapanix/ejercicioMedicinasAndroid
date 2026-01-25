@@ -3,16 +3,16 @@ package com.example.fernandezdanielproyectofinal
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.fernandezdanielproyectofinal.databinding.ActivityEditarBinding
+import com.example.fernandezdanielproyectofinal.databinding.ActivityEscanearBinding
 
 class EscanearActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEditarBinding
+    private lateinit var binding: ActivityEscanearBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityEditarBinding.inflate(layoutInflater)
+        binding = ActivityEscanearBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
@@ -21,10 +21,5 @@ class EscanearActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.btnAnadir.setOnClickListener {
-
-
-
-        }
     }
 }
